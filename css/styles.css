@@ -1,0 +1,44 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigdiv {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 4px;
+  margin: 5px;
+}
+.meddiv {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.smalldiv {
+  display: flex;
+  justify-items: center;
+  width: 70px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: red;
+  padding: 4px;
+}
+
+.inputbox {
+  width: 100%;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+
+h1 {
+  color: brown;
+}
