@@ -1,8 +1,131 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.blog-title {
+    width: 100%;
+  font-size: 40px;
+  color: rgb(12, 60, 18);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-left: 20px;
 }
 
-.bigdiv {
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(64, 190, 95);
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+.list-style {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style: none;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(33, 79, 28, 0.79);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+a:hover {
+    color: #08924d;
+}
+
+.all-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+.blog-post{
+    margin: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center ;
+    background-color:rgb(169, 221, 116);
+}
+
+.blog-head{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+    
+}
+
+.blog-pic{
+    width: 300px;
+    height: 300px;
+}
+
+.blog-info{
+   margin: 20px;
+    background-color: rgb(205, 242, 171);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-item {
+    font-size: medium;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.author{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    color: brown;
+    padding-left: 20px;
+}
+
+
+.date{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 20px;
+
+}
+
+.big-div {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -12,13 +135,13 @@ body {
   padding: 4px;
   margin: 5px;
 }
-.meddiv {
+.med-div {
   display: flex;
   flex-direction: row;
   width: 400px;
 }
 
-.smalldiv {
+.small-div {
   display: flex;
   justify-items: center;
   width: 70px;
@@ -30,15 +153,11 @@ body {
   padding: 4px;
 }
 
-.inputbox {
+.input-box {
   width: 100%;
   font-size: xx-large;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
   border: none;
-}
-
-h1 {
-  color: brown;
 }
